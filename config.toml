@@ -1,3 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "https://demo.uicard.io/hugo-sodium/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sodium"
+theme = "hugo-sodium-free"
+
+[taxonomies]
+  category= 'categories'
+  tag= 'tags'
+
+[params]
+  [social]
+    facebook= 'uicardio'
+    instagram= 'uicardio'
+    twitter= 'uicardio'
